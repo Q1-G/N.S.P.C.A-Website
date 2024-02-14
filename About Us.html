@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">  
+  <head>
+     <meta charset="UTF-8">
+     <meta name ="Who we are" content ="We are the S.P.C.A, find out more about us on our website. We are a non profit organization and animal shelter, We have a passion for animals and we want all animals to live a happy and healthy life.">
+     <title>The N.S.P.C.A About us | We love animals</title>
+     <link rel="stylesheet" href="style.css">
+     <script src="about.js"></script>
+   </head>
+  
+  
+  <body class="aboutBody">
+    <header class = "header">
+       <a href ="Home Page.html" class = "logo active">N.S.P.C.A</a>
+       <!-- Hamburger menu button -->
+      <button class="menu-toggle active" aria-label="Toggle Navigation Menu">
+      <div class="bar"></div>
+      <div class="bar"></div>
+      <div class="bar"></div>
+      </button>
+      <!-- Original navbar -->
+       <nav class = "navbar">
+        <a href="Home Page.html">Home</a>
+        <a href="About Us.html">About us</a>
+        <a href="News.html">News</a>
+        <a href="Get Involved.html">Get involved</a>
+        <a href="Resources.html">Resources</a>
+        <a href="Contact Us.html">Contact us</a>
+      </nav>
+    </header>
+    <section class="aboutPage-content">
+      <h1>About Us</h1>
+        
+      <!-- Overview of NSPCA's history, mission, and values -->
+      <h2>Our History, Mission, and Values</h2>
+       <br>
+       <p>Founded in 1995, the National Society for the Prevention of Cruelty to Animals (NSPCA) has been a dedicated advocate for animal welfare in South Africa. Our mission is clear: to prevent cruelty, promote kindness, and protect animals. Guided by our core values of compassion, integrity, and transparency, we rescue, rehabilitate, and rehome animals in need while actively championing for stronger animal protection laws. Join us in our unwavering commitment to creating a brighter, cruelty-free future for all living beings.</p>
+
+      <!-- Information about key staff members or leadership -->
+      <br>
+      <h2>Our Leadership</h2>
+      <br>
+      <p>At the helm of the National Society for the Prevention of Cruelty to Animals (NSPCA) stands a dedicated and accomplished team of leaders. Annette Rademeyer, our Chairperson, provides strong guidance and vision to our organization, while Brenda Lucas, our Vice Chairperson, offers invaluable support. Marcelle Meredith, our esteemed Executive Director, leads our daily operations with passion and commitment. Together with our esteemed board members, including Vonjia Bauchop, Makhosazane Luthili, Christine Kuch, Chris Marufu, Dudu Moodley, Lize Pienaar, Norma Roberts, and John Penrose, we collectively drive our mission forward and work tirelessly to protect and advocate for animals in need.</p>
+
+      <!-- Timeline or milestones highlighting significant achievements -->
+      <br>
+      <h2>Our Achievements</h2>
+      <br>
+      <p>Throughout our history, the National Society for the Prevention of Cruelty to Animals (NSPCA) has celebrated numerous milestones in the realm of animal welfare. From successful rescue missions that have saved countless lives to legislative victories that have advanced the cause of animal protection, our achievements reflect our unwavering dedication to making a positive impact. Each milestone represents a step closer to our vision of a world where animals are treated with kindness and compassion, and we continue to strive for greater progress each day.</p>
+    
+      <!-- Testimonials from volunteers, supporters, or beneficiaries -->
+      <br>
+      <h2>What People Say</h2>
+      <blockquote class="testimonial">
+        <p>"The NSPCA has made a significant impact on the lives of animals, and I'm proud to be part of their team."</p>
+        <cite>Minerva Mcgonagal, Volunteer</cite>
+      </blockquote>
+      <blockquote class="testimonial">
+        <p>"I've been supporting the NSPCA for years, and I'm continually impressed by their dedication to animal welfare."</p>
+        <cite>Thorin Oakenshield, supporter</cite>
+      </blockquote>
+      <blockquote class="testimonial">
+        <p>"The NSPCA's work has touched the hearts of many, and I'm grateful for their efforts."</p>
+        <cite>Leia Organa, Beneficiary</cite>
+      </blockquote>
+      <button id="prev-button">Previous</button>
+      <button id="next-button">Next</button>
+    </section>
+  </body>
+  <br>
+  <br>
+  <br>
+  <br>  
+  <script>
+    document.addEventListener("DOMContentLoaded", function () {
+  const menuToggle = document.querySelector(".menu-toggle");
+  const navbar = document.querySelector(".navbar");
+
+  menuToggle.addEventListener("click", function () {
+      navbar.classList.toggle("active");
+  });
+});
+</script>
+<footer class="footer">
+  <p id="timestamp">&copy; 2023 N.S.P.C.A</p>
+</footer>
+
+</html>

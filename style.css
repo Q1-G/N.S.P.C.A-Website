@@ -1,0 +1,1001 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+.bodyHome{
+    background: rgba(0,0,0,0.7) url('N.S.P.C.A-puppy-home.png') no-repeat;
+    min-height: 150vh;
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: darken;
+}
+
+/* end of home page body background section*/
+
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 100px;
+    background: blue;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+
+
+.logo{
+    font-size: 32px;
+    color: white;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.navbar a.active {
+    text-decoration: underline;
+  }
+
+.navbar a{
+    position: relative;
+    font-size: 18px;
+    color: white;
+    font-weight: 500;
+    text-decoration: none;
+    margin-left: 40px;
+}
+
+
+.navbar a::before{
+    content: '';
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background: white;
+    transition: .3s;
+}
+
+
+.navbar a:hover::before{
+    width: 100%;
+
+}
+/*end of general navbar section */
+
+
+.hero{
+    padding: 30px;
+    text-align: center;
+    font-size: 30px;
+    margin-top:210px ;
+    color: white;
+}
+
+
+.content{
+    padding:30px;
+    text-align: center;
+    font-size: 30px;
+    margin-top: 70px;
+    color: white;
+    margin-left: 190px;
+    margin-right: 190px;
+}
+
+
+.content p{
+    font-size: 20px;
+}
+/* end of content section for home page*/
+
+
+.aboutBody{
+    min-height: 120vh;
+    background: rgba(0,0,0,0.7) url('N.S.P.C.A-puppy-about_us.png') no-repeat;
+    background-size: cover;
+    background-position: center; 
+    background-blend-mode: darken;
+    
+}
+/* end of background, carousal continues below*/
+
+.testimonials {
+    text-align: center;
+  }
+  
+  .testimonial-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: hidden;
+    max-width: 300px; /* Adjust to your preferred width */
+    margin: 0 auto;
+  }
+  
+  .testimonial {
+    display: none;
+    text-align: center;
+    background-color: transparent;
+    padding: 20px;
+    border-radius: 5px;
+    margin: 10px 0;
+  }
+  
+  .testimonial p {
+    font-style: italic;
+  }
+  
+  .testimonial cite {
+    font-weight: bold;
+  }
+  
+  .active {
+    display: block;
+  }
+
+  .testimonial{
+    color: aquamarine;
+  }
+
+  #prev-button:hover{
+    background: #333;
+  }
+
+  #next-button:hover{
+    background: #333;
+  }
+/* end of about page body background section*/
+
+
+.aboutPage-content{
+    padding: 30px;
+    text-align: left;
+    color: white;
+    margin-top: 100px;
+    text-align: center;
+    font-size: 30px;
+    margin-left: 190px;
+    margin-right: 190px;
+    
+    
+}
+
+
+.aboutPage-content h2{
+    font-size: 30px;
+    margin-top: 20px;
+}
+
+
+.aboutPage-content p{
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+
+.aboutPage-content blockquote{
+    font-style: italic;
+    padding: 10px;
+    border-left: 2px solid #333;
+    margin-top: 20px;
+}
+
+
+.aboutPage-content blockquote p{
+    margin: 0;
+}
+
+
+.aboutPage-content blockquote cite{
+    font-weight: bold;
+}
+/* end of about content section */
+
+
+.workInAction h2{
+    text-align: center;
+}
+
+
+.aboutMedia{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+}
+
+
+.aboutMedia img{
+    max-width: 48%;
+    margin-bottom: 20px;
+}
+/* end of about media section*/
+
+.newsBody{
+    background: transparent;
+}
+/* end of news page body background section*/
+
+
+.footer{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: blue;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.footer p{
+    margin: 0;
+}
+
+.footer a{
+    color: #fff;
+    text-decoration: none;
+}
+
+
+.footer a:hover{
+    text-decoration: underline;
+}
+/* end of general footer section*/
+
+
+.newsPage-content h1{
+    text-align: center;
+    color: blue;
+    font-size: 50px;
+
+}
+
+
+.newsPage-content h2{
+    text-align: center;
+    color: blue;
+    
+}
+
+
+.news-list{
+    text-align: center;
+
+
+}
+
+
+.news-list h2{
+    color: black;
+}
+
+
+.news-list p{
+    color: black;
+}
+
+
+.newsBody{
+    margin-top: 100px;
+}
+
+
+.newsFeatured-stories h2{
+    color:blue;
+
+}
+
+
+.newsFeatured-stories{
+    text-align: center;
+}
+
+
+.news-archive{
+    text-align: center;
+
+}
+.news-archive h2{
+    color: blue;
+}
+
+
+.NewsShare-buttons{
+    text-align: center;
+}
+
+
+.newsRelated-articles{
+    text-align: center;
+}
+
+
+.newsRelated-articles h2{
+    color:blue;
+
+}
+
+.NewsShare-buttons a {
+    background-color: blue;
+    color: white;
+    
+}
+
+.toastContainer .toastLogo{
+    height: 90px;
+    width:90px;
+    color: white;
+    font-size: 15px;
+    font-weight: 600;
+    
+    
+}
+
+.toastContainer .toastLogo img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    margin-top: 52px;
+    margin-right: 100px;
+}
+
+.toastContainer{
+    position: absolute;
+    right: 10px;
+    bottom: 200px;
+}
+
+.toastBody{
+    height: 100vh;
+    background: #f2f2f2;
+
+    position: absolute;
+    top: 500px; /* Adjust this as needed */
+    right: 0;
+    width: 100%;
+    background-color:transparent;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    display: none; /* Hide initially */
+}
+
+.toastContainer .toastBox{
+    background: blue;
+    display: flex;
+    padding: 15px 25px 15px 10px;
+    border-radius: 6px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    align-items: center;
+}
+
+.toastBox .right{
+    display: flex;
+    flex-direction: column;
+}
+
+.toastBox .right .text-1{
+    font-size: 18px;
+    font-weight: 600;
+    color:white;
+}
+
+.toastBox .right .text-2{
+    font-size: 14px;
+    color:white;
+    margin: 2px 0 8px 0;
+}
+
+.toastBox .right a{
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 500;
+    display: block;
+    padding: 6px 0;
+    background: white;
+    border-radius: 6px;
+    color: blue;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 20px;
+    transition: all 0.4s ease;
+}
+
+.toastBox .right a:hover{
+    background-color: aquamarine;
+
+}
+
+.toastContainer span{
+    position:absolute;
+    right: 15px;
+    top: 10px;
+    color:black;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.toastContainer span:hover{
+    color:white;
+}
+
+
+/* end of news section*/
+
+
+.involvedBody{
+    background: white;
+    margin-top: 100px;
+}
+
+
+.involvedBody h1{
+    text-align: center;
+    font-size: 30px;
+    color: blue;
+}
+
+
+.sub-section {
+    margin-top: 40px;
+    padding: 20px;
+    border: 1px solid #ccc;
+}
+
+
+.cta-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: blue;
+    color: #fff;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    margin-top: 10px;
+    transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+    background-color: #555;
+}
+/*end of get involved section*/
+
+
+.sub-navigation ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 0;
+    border-bottom: 1px solid #333;
+}
+
+.sub-navigation li {
+    margin-right: 20px;
+}
+
+
+.search-bar {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    margin-left: 190px;
+    margin-right: 190px;
+}
+
+.search-bar input[type="text"] {
+    flex-grow: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px 0 0 5px;
+}
+
+.search-bar button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+}
+
+.search-bar button:hover {
+    background-color: #555;
+}
+
+
+.resourcesPage-content{
+    background: white;
+    margin-top: 60px;
+}
+
+
+.resourcesPage-content h1{
+    text-align: center;
+    color: blue;
+    font-size: 30px;
+
+}
+
+
+
+
+/*end of resources section */
+
+
+.contact-info {
+    margin-top: 150px;
+    text-align: center;
+}
+
+.contact-info address {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.contact-info address p {
+    margin: 10px 0;
+}
+
+/* Style the map (if applicable) */
+.map {
+    margin-top: 20px;
+}
+
+
+.hours {
+    margin-top: 20px;
+    text-align: center;
+}
+
+
+.social-media {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.social-icon {
+    margin-right: 10px;
+    text-decoration: none;
+    color: #333;
+    border: 1px solid #333;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.social-icon:hover {
+    background-color: #333;
+    color: #fff;
+}
+
+
+.contactPage-content h1{
+    margin-top: 100px;
+    text-align: center;
+    color: blue;
+    font-size: 30px;
+    
+}
+
+
+.contactBody{
+    background: white;
+}
+
+
+.contactUs{
+    text-align: center;
+
+}
+
+
+.contactForm-ButtonContainer{
+    text-align: center;
+    background-color: blue;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-right: 600px;
+    margin-left: 600px;
+    border-radius: 10px;
+    border-color: black;
+    border: 10px;
+    
+
+}
+
+.contactForm-Button{
+    color: white;
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    outline: black;
+    
+}
+
+.social-media a {
+    background-color: blue;
+    color: white;
+}
+
+.contactForm-ButtonContainer:hover{
+    background: #555;
+}
+/* end of contact section*/
+
+.contactFormBody {
+    font-family: Arial, sans-serif;
+    background-color:wheat;
+    margin: 0;
+    padding: 0;
+    background:rgba(0, 0, 0, 0.7) url('N.S.P.C.A-kitten-contact-form.png') no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: darken;
+    min-height: 120vh;
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: rgba(255, 255, 255, 0);
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    text-align: center;
+    margin-top: 100px;
+    
+}
+
+h1 {
+    color: blue;
+}
+
+form {
+    text-align: left;
+    color: white;
+}
+
+label {
+    font-weight: bold;
+    display: block;
+    margin-top: 10px;
+    color: white;
+    
+}
+
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    border: 1px solid gray;
+    border-radius: 3px;
+    
+}
+
+button {
+    background-color: blue;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+button:hover {
+    background-color: blue;
+}
+
+.container h2{
+    color:white;
+}
+
+.container button:hover{
+background: #333;
+}
+/* end of contact form section*/
+
+.subscriptionForm{
+    min-height: 174vh;
+    margin-top: 90px;
+}
+
+iframe{
+    margin: auto;
+    display: block;
+
+}
+
+.subscriptionFormBody{
+    background: rgba(0,0,0,0.7) url('N.S.P.C.A\ dog-news.png') no-repeat;
+    min-height: 120vh;
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: darken;
+}
+
+/* end of subscription form section*/
+
+
+.menu-toggle {
+    display: none; /* Initially hide the hamburger menu button */
+    cursor: pointer;
+    background: none;
+    border: none;
+    padding: 0;
+}
+
+.menu-toggle .bar {
+    width: 25px;
+    height: 3px;
+    background-color: white;
+    margin: 4px 0;
+    transition: 0.4s;
+}
+
+/* Hide the original navbar by default */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+@media (max-width: 1040px) {
+    /* Show the hamburger menu button and hide the original navbar */
+
+    .logo {
+        font-size: 15px;
+       
+    }
+    
+    .menu-toggle {
+        display: block; /* Show the hamburger menu button */
+        margin-left: auto; 
+     
+    }
+
+    .menu-toggle.active {
+        text-decoration: underline;
+      }
+
+    .navbar {
+        display: none;
+        justify-content: space-between;
+        padding: 20px;
+        flex-direction: row-reverse; 
+        padding: 10px 20px; 
+    }
+
+    
+    .navbar.active {
+        display: flex;
+        flex-direction: column;
+        background: #333;
+        position: absolute;
+        top: 60px;
+        left: 0;
+        right: 0;
+        z-index: 1;
+        align-items: center;
+    }
+
+    .navbar.active a {
+        margin: 10px 0;
+    }
+    /* end of navbar and hamburger menu*/
+
+    .hero h1 {
+        font-size: 25px;
+
+    }
+
+    .hero p {
+        font-size: 20px;
+
+    }
+
+    .hero a {
+        font-size: 20px;
+
+    }
+
+    .content {
+        font-size: 15px;
+    }
+
+    .bodyHome{
+        background: rgba(0,0,0,0.7) url('N.S.P.C.A-puppy-home.png') no-repeat;
+        min-height: 150vh;
+        background-size: cover;
+        background-position: center;
+        background-blend-mode: darken;
+    }
+
+    
+
+    
+    /* end of home page responsiveness for Ipad */
+
+
+    .aboutPage-content h1 {
+        font-size: 25px;
+       
+    }
+ 
+    .aboutPage-content h2 {
+        font-size: 20px;
+       
+    }
+
+    .aboutPage-content p {
+        font-size: 20px;
+       
+    }
+
+    .subscriptionForm iframe{
+        
+        width: auto;
+    }
+
+
+
+   /* end of about page responsiveness for Ipad */
+
+   img {
+    max-width: 100%;
+    height: auto; 
+    }
+
+    body {
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+
+    .contactForm-ButtonContainer{
+        font-size: 20px;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+
+
+    /*end of Ipad responsiveness*/
+}
+
+@media (max-width: 600px) {
+    
+
+    .logo {
+        font-size: 15px;
+        
+    }
+    
+    .menu-toggle {
+        display: block;
+        
+    }
+
+    .navbar {
+        display: none;
+    }
+
+    .menu-toggle.active {
+        text-decoration: underline;
+      }
+
+    /* Show the navbar when the hamburger menu is active */
+    .navbar.active {
+        display: flex;
+        flex-direction: column;
+        background: #333;
+        position: absolute;
+        top: 60px;
+        left: 0;
+        right: 0;
+        z-index: 1;
+        align-items: center;
+    }
+
+    .navbar.active a {
+        margin: 10px 0;
+    }
+    /* end of navbar and hamburger menu*/
+
+    .hero h1 {
+        font-size: 15px;
+
+    }
+
+    .hero p {
+        font-size: 10px;
+
+    }
+
+    .hero a {
+        font-size: 10px;
+
+    }
+
+    .content {
+        font-size: 8px;
+    }
+
+    .content p {
+        font-size: 10px;
+        line-height: 1.6; 
+        margin: 0 10px;
+        position: relative;
+
+    }
+
+
+
+
+
+    /* end of home page responsiveness for mobile*/ 
+
+    .aboutPage-content h1 {
+        font-size: 15px;
+       
+    }
+ 
+    .aboutPage-content h2 {
+        font-size: 10px;
+       
+    }
+
+    .aboutPage-content p {
+        font-size: 8px;
+       
+    }
+
+    .aboutPage-content cite {
+        font-size: 8px;
+       
+    }
+
+    #prev-button {
+        font-size: 10px;
+    }
+
+    #next-button {
+        font-size: 10px;
+    }
+
+
+
+   
+    /* end of about page responsiveness for mobile*/ 
+
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+
+     /* end of img resposiveness for mobile*/
+
+    .search-bar button {
+        padding-right: 2px;
+        padding-left: 2px;
+        
+    }
+
+    /* end of resouces page responsiveness for mobile*/
+
+   
+
+    
+}
+/* end of mobile responsiveness /*
